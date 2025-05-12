@@ -1,0 +1,171 @@
+hostnamectl --help
+hostnamectl status
+hostnamectl hostname
+localectl --help
+passwd --help
+man passwd
+sudo mandb
+man -k network
+whoami
+pwd
+ls
+cd repogit
+pwd
+ls
+home
+$home
+cd $home
+apt
+sudo apt update
+sudo apt install tree
+tree
+mkdir test
+cd text
+cd test
+tree
+cat oppa gangnum stlye > testin.txt
+cat > testin.txt
+cat testin.txt
+cat passwd
+cat ect/passwd
+git
+cd ..
+ssh-keygen -t ed25519
+ls -l .ssh/
+sudo systemctl status sshd
+cat ssh/id_ed25519.pub
+cat .ssh/id_ed25519.pub
+cd repogit
+ls
+git clone https://github.com/IvanAQL677/TP_AySO
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+fortune
+grep --help
+grep HOME_URL/etc/ops-release
+ls
+cd repogit
+tree
+ls -l
+cd TP_AySO/
+ls -l
+cat /etc/ost-release
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+grep -i hOmE_uRl /etc/os-release > datos_url.txt
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git config --global user.email "ia35053505@gmail.com"
+git config --global user.name "IvanAQL677"
+git commit -m "ADD:agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+git status
+git push
+ssh-add -l
+ssh-keygen -t ed25519
+ls
+cd $home
+cat .ssh
+cd .ssh
+ls
+cd id_ed25519.pub
+cat *.pub
+ls
+cd repogit
+ls
+cd TP_AySO/
+git status
+git push
+ssh-add -l
+cat $HOME/.ssh/*.pub
+cd repogit/TP_AySO/
+ssh-add -l
+ssh -T git@github.com
+ssh-add -l
+cat $home/.ssh/*.pub
+cat -i $home/.ssh/*.pub
+cat $HOME/.ssh/*.pub
+ssh -T git@github.com
+ls
+git status
+git push
+git remote -v
+git remote set-url origin git@github.com:IvanAQL677/TP_AySO.git
+git remove -v
+git remote -v
+git push
+tree
+cat datos_u*
+cat datos_usuario.txt 
+cat tail -n1 "model name"grep "model name" /proc/cpuinfo | head -n1 >>
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+cat datos_usuarios.txt
+git status
+git add .
+git commit -m "feat: A¤adiendo informacion de CPU"
+git status
+git push
+EOF
+
+cat README.md 
+git add README.md datos_usuarios.txt
+git commit -m "ADD: Anadiendo Readme y datos de usuario"
+git push
+tree
+mkdir materia1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+mkdir -p materia1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+ls
+touch script.sh
+chmod +x script.sh
+rm -r materia1 materia2
+ls
+mkdir -p materia1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+ls materia1
+cat script.sh
+cat mkdir -p materia1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3} > script.sh
+cat "mkdir -p materia1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}" > script.sh
+cat "mkdir -p materia1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}" >> script.sh
+cat > script.sh <<EOF
+mkdir -p materia1/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+echo "Creadas carpetas materia1 y materia2"
+EOF
+
+mv script.sh crearCarpetas.sh
+sh crearCarpetas.sh 
+git add .
+git commit -m "ADD: Anadiendo script"
+git push
+cat README.md 
+cat >> README.md <<EOF
+#TP_AySO
+TP1 ARQ Y SO 2025
+Alumno: Ivan Acevedo
+División: 115
+Turno: Mañana
+EOF
+
+cat README.md 
+cat >> TEMP.md <<EOF
+#TP_AySO
+TP1 ARQ Y SO 2025
+Alumno: Ivan Acevedo
+División: 115
+Turno: Mañana
+EOF
+
+mv TEMP.md README.md 
+cat README.md 
+git add .
+git commit -m
+git commit -m "Anadiendo Readme y datos de usuario
+"
+git push
+history -a
